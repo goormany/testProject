@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 
     'django.contrib.sites',
     'django.contrib.flatpages',
+    'fpages'
 ]
 
 SITE_ID = 1
@@ -77,6 +78,10 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'testProject.wsgi.application'
 
+
+STATICFILES_DIRS = [
+    BASE_DIR / "static"
+]
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
