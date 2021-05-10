@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /*!
-* Start Bootstrap - Bare v4.3.0 (https://startbootstrap.com/template/bare)
+* Start Bootstrap - The Big Picture v4.3.0 (https://startbootstrap.com/template/the-big-picture)
 * Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-bare/blob/master/LICENSE)
+* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-the-big-picture/blob/master/LICENSE)
 */
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
@@ -10005,4 +10005,8 @@ h3 {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+body {
+  background: url("https://via.placeholder.com/1920x1080") no-repeat center center fixed;
+  background-size: cover;
 }
